@@ -55,7 +55,7 @@ int Calculator2::calculate2(string str,int count) {
 			}
 			}
 			if (count != 0) {
-				cout << "°ýÈ£ Ãâ·Â: ( " << num1 << " "<<str[i] <<" "<< num2 << " ) = " << result << endl;
+				cout << "Â°Ã½ÃˆÂ£ ÃƒÃ¢Â·Ã‚: ( " << num1 << " "<<str[i] <<" "<< num2 << " ) = " << result << endl;
 				count--;
 			}
 			numbers.push(result);
@@ -159,5 +159,5 @@ void Calculator2::process2() {
 	int count = parentheseCount(a);
 	string postfix = convertExpression2(a);
 	int result = calculate2(postfix,count);
-	cout<<"ÃÑ °è»ê °á°ú: "<<result <<endl;
+	cout<<"ÃƒÃ‘ Â°Ã¨Â»Ãª Â°Ã¡Â°Ãº: "<<result <<endl;
 }
