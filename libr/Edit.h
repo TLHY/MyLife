@@ -1,8 +1,11 @@
 #pragma once
+#include <iostream>
+#include <vector>
 #include "tag_parents.h"
+#include <string>
 
 using namespace std;
-class Del :public OperationTag {
+class Edit :public OperationTag {
 public:
 	Tag* copy() const;
 	void Validate();

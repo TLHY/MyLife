@@ -2,7 +2,8 @@
 #include "tag_parents.h"
 
 using namespace std;
-class Del :public OperationTag {
+
+class Exit :public OperationTag {
 public:
 	Tag* copy() const;
 	void Validate();
